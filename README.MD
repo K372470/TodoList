@@ -4,7 +4,10 @@ This is just a simple app, every
 
 ## How to use
 
-Start web server from `public/` folder, that is pretty much all it
+2 Major options: 
+* Start web server from `src/` folder
+* open `index.html` file
+That is pretty much all of it
 
 ## Configure the project
 

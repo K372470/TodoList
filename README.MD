@@ -1,13 +1,13 @@
 # Todo List
 
 This is just a simple app, every js programer has.
+Check [result](https://k372470.github.io/TodoList/) out by yourself.
 
 ## How to use
 
-2 Major options: 
+There are two standart options to start the project: 
 * Start web server from `src/` folder
 * open `index.html` file
-That is pretty much all of it
 
 ## Configure the project
 

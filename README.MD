@@ -1,6 +1,6 @@
 # Todo List
 
-This is just a simple app, every 
+This is just a simple app, every js programer has.
 
 ## How to use
 

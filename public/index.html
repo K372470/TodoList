@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Todo</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  </head>
+
+  <body class="bg-secondary">
+    <main class="container">
+      <form class="form-submit border border-3 bg-light h-75">
+        <input
+          type="text"
+          name="taskName"
+          class="fs-2"
+          placeholder="Enter Task To Add"
+        />
+        <div class="btn-group">
+          <button type="submit" class="btn btn-outline-primary">Save</button>
+          <button type="reset" class="btn-outline-secondary clear-button">
+            Clear
+          </button>
+        </div>
+      </form>
+
+      <table
+        class="bg-light table table-striped text-center table-bordered table-border border border-3 align-self-center"
+      >
+        <thead>
+          <tr>
+            <th class="col-narrow"></th>
+            <th class="col-narrow col-md-2" colspan="2">Priority</th>
+            <th>Task Name</th>
+            <th class="col-narrow">Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button class="btn btn-outline-light clear-table-btn">Clear All</button>
+    </main>
+    <script src="scripts/app.js" type="module"></script>
+  </body>
+</html>

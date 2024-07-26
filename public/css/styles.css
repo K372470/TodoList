@@ -1,0 +1,59 @@
+.form-submit {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-submit input {
+  text-align: center;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+tr {
+  font-size: large;
+}
+
+tr.completed {
+  font-style: italic;
+  text-decoration: line-through;
+  color: gray !important;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.clear-button {
+  flex: 0.2 auto;
+}
+
+.td {
+  height: 30px;
+}
+
+.delete-task-btn {
+  aspect-ratio: 1;
+}
+
+td .form-check-input {
+  top: 2px;
+  position: relative;
+}
+
+.delete-task-btn:hover {
+  height: 20px;
+  background-image: url(resources/img/task-completed.ico);
+}
+
+.clear-table-btn {
+  float: right;
+  width: 120px;
+  height: 60px;
+}
+
+.col-narrow {
+  width: 40px;
+}
